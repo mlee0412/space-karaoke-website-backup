@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--generator='jetpack-15.8'-->
+<!--Jetpack_Sitemap_Buffer_Master_XMLWriter-->
+<?xml-stylesheet type="text/xsl" href="//spacekaraoke.com/sitemap-index.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+ <sitemap>
+  <loc>https://spacekaraoke.com/sitemap-1.xml</loc>
+  <lastmod>2026-05-15T04:57:45Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://spacekaraoke.com/image-sitemap-1.xml</loc>
+  <lastmod>2025-11-11T20:38:30Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://spacekaraoke.com/video-sitemap-1.xml</loc>
+  <lastmod>2022-12-01T22:39:09Z</lastmod>
+ </sitemap>
+</sitemapindex>
