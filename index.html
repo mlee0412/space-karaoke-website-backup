@@ -3,218 +3,169 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Space Karaoke Bar & Lounge NYC | Koreatown</title>
-    <meta name="description" content="Space Karaoke Bar & Lounge in Koreatown NYC. Private karaoke rooms, VIP bottle packages, open bar, and corporate events.">
+    <title>Space Karaoke Bar &amp; Lounge NYC | Private Karaoke Rooms</title>
+    <meta name="description" content="Private karaoke rooms, VIP bottle packages, open bar service, food catering, and group events at Space Karaoke in Koreatown NYC.">
+    <meta name="theme-color" content="#fff8f0">
+    <link rel="preload" as="image" href="assets/hero.jpg">
     <link rel="icon" href="assets/logo.png">
     <link rel="stylesheet" href="styles.css">
+    <style>
+      :root {
+        --accent: #d91f2f;
+        --accent-dark: #97111e;
+        --ink: #09080d;
+        --paper: #fff8f0;
+      }
+      .hero { --hero-image: url("assets/hero.jpg"); }
+    </style>
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip To Content</a>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Space Karaoke home">
-        <img src="assets/logo.png" alt="Space Karaoke">
+        <img src="assets/logo.png" width="440" height="100" alt="Space Karaoke logo">
+        
       </a>
-      <nav aria-label="Primary navigation">
-        <a href="#pricing">Pricing</a>
-        <a href="#reserve">Reserve</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#experience">Experience</a>
+        <a href="#details">Details</a>
         <a href="#gallery">Gallery</a>
         <a href="#faq">FAQ</a>
+        <a class="button-link" href="mailto:hello@spacekaraoke.com?subject=Space%20Karaoke%20Reservation%20Inquiry">Reserve A Room</a>
       </nav>
     </header>
 
-    <main id="top">
-      <section class="hero">
-        <video class="hero-video" autoplay muted loop playsinline poster="assets/hero.jpg">
-          <source src="https://cdn.spacekaraoke.com/wordpress/wp-content/uploads/SpaceKaraoke.webm" type="video/webm">
-          <source src="https://cdn.spacekaraoke.com/wordpress/wp-content/uploads/SpaceKaraoke.mp4" type="video/mp4">
-        </video>
-        <div class="hero-overlay"></div>
+    <main id="main">
+      <section class="hero" id="top" aria-label="Space Karaoke introduction">
         <div class="hero-content">
-          <p class="eyebrow">Open 7 Days A Week</p>
-          <h1>Space Karaoke<br>Bar & Lounge NYC</h1>
-          <p class="hero-copy">Private karaoke rooms, VIP bottle packages, open bar service, and group events in Koreatown.</p>
+          <p class="eyebrow">Private Karaoke Rooms &amp; Events</p>
+          <h1>Private Karaoke Rooms, Bottle Packages &amp; Group Events</h1>
+          <p class="hero-copy">A late-night Koreatown karaoke lounge for private rooms, birthdays, open bar packages, food catering, and venue buyouts.</p>
           <div class="hero-actions">
-            <a class="button primary" href="#reserve">Reserve Now</a>
-            <a class="button secondary" href="#pricing">View Packages</a>
+            <a class="button primary" href="tel:+16467564206">Call +1 (646) 756-4206</a>
+            <a class="button secondary" href="mailto:hello@spacekaraoke.com?subject=Space%20Karaoke%20Reservation%20Inquiry">Reserve A Room</a>
           </div>
         </div>
       </section>
 
-      <section class="promo-band" aria-label="Current offers">
-        <span>Student ID: 10% Off Entire Bill</span>
-        <span>Private Venue Buyouts Available</span>
-        <span>Corporate Reservations: 10% Off</span>
-        <span>Engagement & Private Room Packages</span>
-      </section>
-
-      <section class="section intro">
-        <div>
-          <p class="eyebrow">Extraterrestrial Event Hosting</p>
-          <h2>Let us coordinate your next out-of-this-world event experience.</h2>
-        </div>
-        <p>Space Karaoke offers private room rentals, VIP bottle packages, open bar service, and food catering options for groups of 20 or more. The venue can accommodate up to 200 guests.</p>
-      </section>
-
-      <section class="section pricing" id="pricing">
-        <div class="section-heading">
-          <p class="eyebrow">Rates & Packages</p>
-          <h2>Choose the format that fits the night.</h2>
-          <p class="pricing-source">Menu pricing shown before NYC sales tax and 20% gratuity for karaoke rentals. Valid ID required, 21+.</p>
-        </div>
-        <div class="price-grid">
-          <article class="price-card">
-            <p class="label">Hourly Rate</p>
-            <h3>$50</h3>
-            <p>A La Carte</p>
-            <ul>
-              <li>Rates for up to 4 guests</li>
-              <li>Additional guests +$5/hour</li>
-              <li>Extensions pending availability</li>
-              <li>Minimum 1 drink/person, Fri & Sat only</li>
-              <li>Strictly 21+ with physical ID</li>
-            </ul>
-          </article>
-          <article class="price-card featured">
-            <p class="label">Gold Bottle Packages</p>
-            <h3>$390</h3>
-            <p>Starting Package</p>
-            <ul>
-              <li>Package I: up to 10 guests, 1 bottle, 1 prosecco, 1 fruit</li>
-              <li>Package II: up to 20 guests, 2 bottles, 2 prosecco, 2 fruit - $700</li>
-              <li>Package III: up to 30 guests, 3 bottles, 3 prosecco, 2 fruit - $960</li>
-              <li>2 hours of karaoke included</li>
-              <li>Chasers included</li>
-            </ul>
-          </article>
-          <article class="price-card">
-            <p class="label">Open Bar</p>
-            <h3>$49</h3>
-            <p>Per Person Starting</p>
-            <ul>
-              <li>Beer & wine: $49/person for 2 hours, $78/person for 3 hours</li>
-              <li>Bottom shelf: $59/person for 2 hours, $98/person for 3 hours</li>
-              <li>Top shelf: $69/person for 2 hours, $118/person for 3 hours</li>
-              <li>Premium: $79/person for 2 hours, $138/person for 3 hours</li>
-              <li>10 guest minimum participation required</li>
-            </ul>
-          </article>
-        </div>
-        <div class="package-tiers">
-          <article>
-            <h3>Platinum Packages</h3>
-            <p>2 hours of karaoke included. Select up to 3 bottles, chasers included.</p>
-            <dl>
-              <div><dt>Package I</dt><dd>$410 / up to 10 guests</dd></div>
-              <div><dt>Package II</dt><dd>$760 / up to 20 guests</dd></div>
-              <div><dt>Package III</dt><dd>$1,090 / up to 30 guests</dd></div>
-            </dl>
-          </article>
-          <article>
-            <h3>VIP Diamond Packages</h3>
-            <p>3 hours of karaoke included with premium bottle selections.</p>
-            <dl>
-              <div><dt>Diamond I</dt><dd>$1,100 / up to 30 guests</dd></div>
-              <div><dt>Diamond II</dt><dd>$2,200 / up to 40 guests</dd></div>
-              <div><dt>Diamond III</dt><dd>$3,200 / up to 50 guests</dd></div>
-              <div><dt>Executive</dt><dd>$5,200</dd></div>
-            </dl>
-          </article>
-        </div>
-        <div class="menu-preview">
+      <section class="section" id="experience">
+        <div class="section-inner intro-layout">
           <div>
-            <p class="label">Event Packages</p>
-            <ul>
-              <li>NASA Package for Minors: $37/person, +1 hour $22/person</li>
-              <li>Bring Your Own Booze: $51/person, +1 hour $29/person</li>
-              <li>Beer & Wine Open Bar: $49/person, +1 hour $29/person</li>
-              <li>Food catering platters serve approximately 10 guests</li>
-            </ul>
+            <p class="section-kicker">Experience</p>
+            <h2>Space Karaoke is built for groups that want a full night out.</h2>
           </div>
           <div>
-            <p class="label">Drinks & Bites</p>
-            <ul>
-              <li>Signature cocktails: $16-$19</li>
-              <li>Bottled beer: $9-$10; draft Coors Light glass $8 / pitcher $27</li>
-              <li>Wine glass $13; sangria glass $17 / pitcher $59</li>
-              <li>Bar bites from $11-$35, including wings, sliders, dumplings, platter, and fruit medley</li>
-            </ul>
+            <p class="lead">Private karaoke rooms, VIP bottle packages, open bar service, food catering, and group events at Space Karaoke in Koreatown NYC.</p>
+            <div class="highlight-row" aria-label="Venue highlights">
+            <span>Private Rooms</span>
+            <span>Open Bar</span>
+            <span>Bottle Service</span>
+            <span>Buyouts</span>
+            </div>
+          </div>
+        </div>
+        <div class="section-inner info-grid">
+          <article class="info-card">
+            <h3>Private Rooms</h3>
+            <p>Soundproof rooms, large song catalog access, microphones, screens, and a party-first room setup.</p>
+          </article>
+          <article class="info-card">
+            <h3>Packages</h3>
+            <p>Hourly rentals, bottle packages, open bar tiers, catering platters, and event formats for groups.</p>
+          </article>
+          <article class="info-card">
+            <h3>Venue Buyouts</h3>
+            <p>A strong choice for birthdays, corporate events, after-parties, celebrations, and private room blocks.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section feature-band" id="details">
+        <div class="section-inner feature-layout">
+          <div class="feature-photo">
+            <img src="assets/gallery-1.jpg" width="300" height="200" alt="Space Karaoke featured venue view" loading="lazy">
+          </div>
+          <div>
+            <p class="section-kicker">Venue Details</p>
+            <h2>A richer karaoke page now aligned with the portfolio system.</h2>
+            <p class="lead">Space Karaoke keeps its package depth while gaining the same production-grade structure, focus states, image handling, and mobile CTA quality as the rest of the venue sites.</p>
+            <div class="details">
+              <div class="detail"><strong>Address</strong><span>34 W 32nd St, Floor 11, New York, NY 10001</span></div>
+              <div class="detail"><strong>Hours</strong><span>Open 7 days a week until 3 AM or later</span></div>
+              <div class="detail"><strong>Phone</strong><a href="tel:+16467564206">+1 (646) 756-4206</a></div>
+              <div class="detail"><strong>Email</strong><a href="mailto:hello@spacekaraoke.com">hello@spacekaraoke.com</a></div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section experience">
-        <div class="feature-copy">
-          <p class="eyebrow">Largest Song Catalogue</p>
-          <h2>Top hits, classics, dual karaoke systems, and private-room sound.</h2>
-          <p>Each room is tuned for acoustic fidelity with volume controls for music, microphones, and reverb. Soundproofing keeps your party inside the room while keeping outside noise out.</p>
-        </div>
-        <div class="feature-images" aria-label="Karaoke features">
-          <img src="assets/microphone.png" alt="Wireless karaoke microphone">
-          <img src="assets/screens.png" alt="Karaoke lyric screens">
+      <section class="section" id="gallery">
+        <div class="section-inner">
+          <p class="section-kicker">Gallery</p>
+          <h2>See the room, the mood, and the service style before you arrive.</h2>
+          <div class="gallery">
+            <img src="assets/gallery-1.jpg" width="300" height="200" alt="Space Karaoke venue atmosphere" loading="lazy">
+            <div class="gallery-stack">
+              <img src="assets/gallery-2.jpg" width="300" height="200" alt="Space Karaoke hospitality detail 2" loading="lazy">
+              <img src="assets/gallery-3.jpg" width="300" height="200" alt="Space Karaoke hospitality detail 3" loading="lazy">
+            </div>
+          </div>
         </div>
       </section>
 
       <section class="section reserve" id="reserve">
-        <div>
-          <p class="eyebrow">Reserve</p>
-          <h2>Book a room or plan a private event.</h2>
-          <p>Live booking connection is intentionally left for the next step. For now, this page keeps the customer-facing experience online and routes people to phone or email.</p>
-        </div>
-        <div class="reserve-actions">
-          <a class="button primary" href="tel:+16467564206">Call +1 (646) 756-4206</a>
-          <a class="button secondary" href="mailto:hello@spacekaraoke.com?subject=Space%20Karaoke%20Reservation%20Inquiry">Email Reservation Inquiry</a>
-        </div>
-      </section>
-
-      <section class="section gallery" id="gallery">
-        <div class="section-heading">
-          <p class="eyebrow">Gallery</p>
-          <h2>Koreatown nights, private rooms, and group celebrations.</h2>
-        </div>
-        <div class="gallery-grid">
-          <img src="assets/gallery-1.jpg" alt="Space Karaoke room and party atmosphere">
-          <img src="assets/gallery-2.jpg" alt="Private karaoke event setup">
-          <img src="assets/gallery-3.jpg" alt="Group celebration at Space Karaoke">
-          <img src="assets/gallery-4.jpg" alt="Themed karaoke event at Space Karaoke">
+        <div class="section-inner reserve-layout">
+          <div>
+            <p class="section-kicker">Reservations</p>
+            <h2>Send the date, time, guest count, and event style.</h2>
+            <p class="lead">The venue team can confirm availability, package options, and the best setup for your group.</p>
+          </div>
+          <div class="detail-panel" aria-label="Contact details">
+            <dl>
+              <div><dt>Phone</dt><dd><a href="tel:+16467564206">+1 (646) 756-4206</a></dd></div>
+              <div><dt>Email</dt><dd><a href="mailto:hello@spacekaraoke.com">hello@spacekaraoke.com</a></dd></div>
+              <div><dt>Address</dt><dd>34 W 32nd St, Floor 11, New York, NY 10001</dd></div>
+              <div><dt>Website</dt><dd>spacekaraoke.com</dd></div>
+            </dl>
+            <div class="reserve-actions">
+              <a class="button primary" href="mailto:hello@spacekaraoke.com?subject=Space%20Karaoke%20Reservation%20Inquiry">Reserve A Room</a>
+            </div>
+          </div>
         </div>
       </section>
 
-      <section class="section faq" id="faq">
-        <div class="section-heading">
-          <p class="eyebrow">FAQ</p>
-          <h2>Key details before you arrive.</h2>
-        </div>
-        <div class="faq-grid">
-          <details open>
+      <section class="section" id="faq">
+        <div class="section-inner">
+          <p class="section-kicker">FAQ</p>
+          <h2>Quick answers before you book.</h2>
+          <div class="faq-grid">
+          <details>
             <summary>Is Space Karaoke 21+?</summary>
-            <p>Yes. Guests must bring a physical ID. Strict 21+ applies on Friday and Saturday.</p>
+            <p>Guests should bring physical ID. Strict 21+ policy applies on Friday and Saturday.</p>
           </details>
           <details>
-            <summary>Can you host larger private events?</summary>
-            <p>Yes. Private room packages, open bar service, catering options, and venue buyouts are available.</p>
+            <summary>Can groups book packages?</summary>
+            <p>Yes. Hourly rooms, bottle packages, open bar, catering, and venue buyouts are available by inquiry.</p>
           </details>
           <details>
-            <summary>Can we extend our room time?</summary>
-            <p>Extensions are pending availability and can be handled by staff during the visit.</p>
+            <summary>Can room time be extended?</summary>
+            <p>Extensions depend on availability and can be handled by the team during the visit.</p>
           </details>
+          </div>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div>
-        <img src="assets/logo.png" alt="Space Karaoke">
-        <p>Space Karaoke Bar & Lounge NYC</p>
+    <div class="mobile-cta" aria-label="Quick actions">
+      <a href="tel:+16467564206">Call</a>
+      <a href="mailto:hello@spacekaraoke.com?subject=Space%20Karaoke%20Reservation%20Inquiry">Email</a>
+    </div>
+
+    <footer>
+      <div class="section-inner">
+        <span>Space Karaoke | spacekaraoke.com</span>
+        <span><a href="tel:+16467564206">+1 (646) 756-4206</a> | <a href="mailto:hello@spacekaraoke.com">hello@spacekaraoke.com</a></span>
       </div>
-      <div>
-        <h2>Hours of Operation</h2>
-        <p>Sunday: 4:30 PM - 3:00 AM<br>Mon - Wed: 5:00 PM - 3:00 AM<br>Thursday: 5:00 PM - 4:00 AM<br>Friday: 5:00 PM - 4:30 AM<br>Saturday: 4:30 PM - 4:30 AM</p>
-      </div>
-      <div>
-        <h2>Address</h2>
-        <p>34 West 32nd Street, Floor 11<br>New York, NY 10001-3838</p>
-        <p><a href="tel:+16467564206">+1 (646) 756-4206</a><br><a href="mailto:hello@spacekaraoke.com">hello@spacekaraoke.com</a></p>
-      </div>
-      <p class="copyright">Space Karaoke © 2018-2026. All rights reserved.</p>
     </footer>
   </body>
 </html>
