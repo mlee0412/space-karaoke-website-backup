@@ -1,8 +1,19 @@
-# Space Karaoke Website Backup
+# Space Karaoke Website Backup + Emergency Site
 
-Public website recovery snapshot for `spacekaraoke.com`, captured on 2026-06-04.
+Public website recovery snapshot for `spacekaraoke.com`, captured on 2026-06-04, plus the emergency static fallback site deployed on Vercel.
 
-## Contents
+## Deployable Site
+
+- `index.html` — emergency customer-facing fallback homepage.
+- `styles.css` — fallback site styling.
+- `assets/` — downloaded customer-facing images used by the fallback site.
+- `_verification/` — desktop/mobile screenshots from visual checks.
+
+Vercel project: `space-karaoke-emergency-site-2026-06-07`
+
+Public preview: `https://space-karaoke-emergency-site-2026-0.vercel.app/`
+
+## Recovery Snapshot
 
 - `homepage.html` — captured public homepage HTML.
 - `meta/` — response headers, robots.txt, and sitemap endpoints.
