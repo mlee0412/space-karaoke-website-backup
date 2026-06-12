@@ -1,0 +1,11 @@
+/*!
+Theme Name:   Space Karaoke
+Theme URI: https://SpaceKaraoke.com/
+Version:     5.5.1
+Description: Smart. Flexible. Beautiful.
+Author: AxioPathos, Inc.
+Author URI: https://AxioNYC.com/
+Updated: 2024-07-16 00:00:00
+Template: Divi
+*/
+ #blurb-tabs .tab-title{width:25%;transition:all 2s ease-in-out}#blurb-tabs .tab-title:hover{cursor:pointer;background:#E2FF4E!important;-webkit-transition:background-color 2s ease-out;-moz-transition:background-color 2s ease-out;-o-transition:background-color 2s ease-out;transition:background-color 2s ease-out}#blurb-tabs .et_pb_column{display:flex;align-items:center;justify-content:center;flex-wrap:wrap}@media (max-width:767px){#blurb-tabs .tab-title{width:50%}}@media (max-width:479px){#blurb-tabs .tab-title{width:100%}}.tab-content{display:none}#blurb-tabs .tab-title.active-tab{background:#E2FF4E!important;-webkit-transition:background-color 2s ease-out;-moz-transition:background-color 2s ease-out;-o-transition:background-color 2s ease-out;transition:background-color 2s ease-out}

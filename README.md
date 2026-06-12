@@ -26,3 +26,9 @@ Public preview: `https://space-karaoke-emergency-site-2026-0.vercel.app/`
 This is a public-surface backup, not a credentialed WordPress or hosting backup. It does not include the database export, full uploads directory, theme/plugin source, `wp-config.php`, hosting files, Cloudflare settings, or registrar/account metadata.
 
 Use this repo as a design and recovery reference for AI agents, developers, and human designers.
+
+## Latest Original Site Capture
+
+- `original-site-capture/20260612-0420-live/` - live public capture from the restored original website.
+- Includes homepage HTML, headers, robots/sitemaps, DNS, public WordPress REST structure, media/page indexes, and homepage-linked public assets.
+- Use this folder as the current original-site reference while building the replacement site.
