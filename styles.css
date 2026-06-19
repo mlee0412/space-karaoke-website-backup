@@ -635,6 +635,17 @@ footer a:hover { color: var(--accent); }
 @media (max-width: 540px) {
   .brand img { max-width: min(168px, 62vw); }
   .brand span { font-size: 14px; }
+  .hero::before {
+    background-image: url("assets/gallery-3.jpg");
+    background-position: center;
+  }
+  .hero-video { display: none; }
+  .hero::after {
+    background:
+      radial-gradient(circle at 80% 24%, rgba(255, 53, 93, 0.26), transparent 34%),
+      linear-gradient(90deg, rgba(10,3,8,0.86), rgba(16,6,12,0.58)),
+      linear-gradient(0deg, rgba(10,3,8,0.9), rgba(10,3,8,0.18) 62%);
+  }
   .hero-content {
     width: auto;
     max-width: none;
